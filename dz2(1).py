@@ -6,8 +6,8 @@ print(type(15 // 2)
 
 
 list = ['инженер-конструктор Игорь', 'главный бухгалтер МАРИНА', 'токарь высшего разряда нИКОЛАй', 'директор аэлита']
-for abc in list:
-    print('Привет', abc.split()[-1].capitalize())
+for position in list:
+    print('Привет', position.split()[-1].capitalize())
 
 
 
